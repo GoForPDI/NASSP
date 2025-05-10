@@ -57,6 +57,9 @@ core
 !/Meshes/
 /Meshes/*
 !/Meshes/ProjectApollo
+!/Missions/
+/Missions/*
+!/Missions/ProjectApollo
 /Install
 !/Script
 /Script/*
@@ -66,6 +69,13 @@ core
 /Scenarios
 !/Scenarios/Project Apollo - NASSP/
 *.vcxproj.user
+/Cache/
+/Cache/*
+/GravityModels/
+/GravityModels/*
+/Customizations/
+/Customizations/*
+
 
 # Stuff that wasn't previously ignored
 /Constell.bin
@@ -108,6 +118,19 @@ XRSound/
 /RTCCDebug.txt
 /EphemData.txt
 /PrecessionData.txt
+/LICENSE
+/StateSnap.dll
+/concrt140.dll
+/lua.dll
+/lua.lib
+/msvcp140.dll
+/msvcp140_1.dll
+/msvcp140_2.dll
+/msvcp140_atomic_wait.dll
+/msvcp140_codecvt_ids.dll
+/vcruntime140.dll
+/zlib.dll
+/CMakeLists.txt
 
 # Ignore EMS scroll
 /*.bmp
